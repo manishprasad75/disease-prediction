@@ -227,7 +227,7 @@ def make_test_data(symptoms):
 def find_symptoms(data):
     test_data = make_test_data(data)
     # Model Currently Training
-    current_model_name = 'decision_tree'
+    current_model_name = 'random_forest'
     # Instantiate the Class
     dp = DiseasePrediction(model_name=current_model_name)
     # Train the Model
